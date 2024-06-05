@@ -6,13 +6,16 @@ export default function Navigation() {
   const handleClick = () => setIsOpen(!isOpen);
   const content = (
     <>
-      <div className="absolute left-0 right-0 block w-full transition md:hidden top-16 bg bg-[#1c2226]">
+      <div className="absolute z-20 h-screen left-0 right-0 block w-full transition md:hidden top-16 bg bg-[#1c2226]">
         <ul className="p-20 text-xl text-center text-[#fff]">
-          <li spy={true} className="py-4 my-4 border-b border-slate-700">
+          <li className="py-4 my-4 border-b border-slate-700">
             <a href="#home">Home</a>
           </li>
           <li className="py-4 my-4 border-b border-slate-700">
             <a href="#about">About</a>
+          </li>
+          <li className="py-4 my-4 border-b border-slate-700">
+            <a href="#skills">Skills</a>
           </li>
           <li className="py-4 my-4 border-b border-slate-700">
             <a href="#projects">Projects</a>
@@ -35,6 +38,9 @@ export default function Navigation() {
             </li>
             <li className="hover:text-[#0080FF]">
               <a href="#about">About</a>
+            </li>
+            <li className="hover:text-[#0080FF]">
+              <a href="#skills">Skills</a>
             </li>
             <li className="hover:text-[#0080FF]">
               <a href="#projects">Projects</a>
