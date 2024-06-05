@@ -28,14 +28,14 @@ export default function Hero() {
       <div className="flex flex-col px-10 md:pt-20 lg:flex-row md:px-16 lg:px-24 xl:px-44">
         <div
           ref={heroTextRef}
-          className="text-[#fff] flex flex-col gap-4 mt-20 items-center lg:items-start"
+          className="text-[#fff] flex flex-col gap-4 mt-10 lg:mt-20 items-center lg:items-start"
         >
           <h2 className="text-xl lg:text-2xl ">Hello, it's me</h2>
           <h1 className="text-3xl lg:text-4xl">Mario Valentinov</h1>
           <h2 className="text-xl lg:text-2xl ">
             And I'm a <span className="text-[#0080FF]">Web Developer</span>
           </h2>
-          <p className="text-xs md:w-2/3 lg:text-sm text-pretty">
+          <p className="text-xs text-gray-300 md:w-2/3 lg:text-sm text-pretty">
             A passionate web developer with a strong interest in crafting robust
             and user-friendly web applications. Always on the lookout for
             exciting opportunities to contribute to innovative projects and
