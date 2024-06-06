@@ -3,9 +3,15 @@ import { Textarea } from "../ui/textarea";
 import { Button } from "../ui/button";
 import { useToast } from "../ui/use-toast";
 import { Toaster } from "../ui/toaster";
+import { useGSAP } from "@gsap/react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useRef } from "react";
+gsap.registerPlugin(ScrollTrigger);
 
 export default function Contact() {
   const { toast } = useToast();
+  const contactRef = useRef();
 
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -36,8 +42,27 @@ export default function Contact() {
     }
   };
 
+  useGSAP(() => {
+    gsap.fromTo(
+      contactRef.current,
+      {
+        x: 100,
+        opacity: 0,
+      },
+      {
+        duration: 3,
+        opacity: 1,
+        ease: "power4.out",
+        x: 0,
+        scrollTrigger: {
+          trigger: contactRef.current,
+        },
+      }
+    );
+  });
   return (
     <div
+      ref={contactRef}
       id="contact"
       className="text-[#fff] flex flex-col gap-4 py-12 pb-4 px-10 md:px-16 lg:px-24 xl:px-44 md:py-10"
     >
