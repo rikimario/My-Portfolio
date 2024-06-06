@@ -27,11 +27,16 @@ export default function Skills() {
   });
 
   return (
-    <div className="text-[#fff] py-12 pb-4 px-10 md:px-16 lg:px-24 xl:px-44 md:py-10">
+    <div
+      id="skills"
+      className="text-[#fff] py-12 pb-4 px-10 md:px-16 lg:px-24 xl:px-44 md:py-10"
+    >
       <div ref={skillsRef}>
         <div className="pb-6 text-center">
-          <h1 className="pb-6 text-3xl text-center lg:text-4xl">Skills</h1>
-          <p className="text-center">
+          <h1 className="pb-6 text-3xl text-center lg:text-4xl">
+            My <span className="text-[#0080FF]">Skills</span>
+          </h1>
+          <p className="text-center text-gray-300">
             The skills, tools and technologies I am familiar with:
           </p>
         </div>

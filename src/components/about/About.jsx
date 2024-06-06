@@ -14,7 +14,10 @@ export default function About() {
     });
   });
   return (
-    <div className="text-[#fff] bg-[#25282A] pt-12 pb-12 px-10 md:px-16 lg:px-24 xl:px-44 md:pt-10">
+    <div
+      id="about"
+      className="text-[#fff] bg-[#25282A] pt-12 pb-12 px-10 md:px-16 lg:px-24 xl:px-44 md:pt-10"
+    >
       <div ref={aboutRef}>
         <h1 className="pb-6 text-3xl text-center lg:text-4xl">
           About <span className="text-[#0080FF]">Me</span>

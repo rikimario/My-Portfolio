@@ -44,9 +44,14 @@ export default function Projects() {
   });
 
   return (
-    <div className="text-[#fff] flex flex-col gap-4 bg-[#25282A] py-12 pb-4 px-10 md:px-16 lg:px-24 xl:px-44 md:py-10">
+    <div
+      id="projects"
+      className="text-[#fff] flex flex-col gap-4 bg-[#25282A] py-12 pb-4 px-10 md:px-16 lg:px-24 xl:px-44 md:py-10"
+    >
       <div className="pb-6 text-center">
-        <h1 className="pb-6 text-3xl text-center lg:text-4xl">Projects</h1>
+        <h1 className="pb-6 text-3xl text-center lg:text-4xl">
+          My <span className="text-[#0080FF]">Projects</span>
+        </h1>
       </div>
       {/* First Project */}
       <div
@@ -63,7 +68,7 @@ export default function Projects() {
 
         <div className="p-4 lg:pl-16 bg-[#1c2226] rounded-3xl">
           <h1 className="pb-6 text-xl md:text-2xl">Cinemania Hub</h1>
-          <p className="pb-6 text-gray-300">
+          <p className="pb-6 text-sm text-gray-300">
             Cinemania Hub is a smaller version of the popular website IMDb,
             built specifically for movie enthusiasts. It allows users to
             discover and explore movies, view ratings and reviews from other
@@ -97,7 +102,7 @@ export default function Projects() {
       >
         <div className="p-4 lg:pl-16 bg-[#1c2226] rounded-3xl">
           <h1 className="pb-6 text-xl md:text-2xl">Cinemania Hub</h1>
-          <p className="pb-6 text-gray-300">
+          <p className="pb-6 text-sm text-gray-300">
             Cinemania Hub is a smaller version of the popular website IMDb,
             built specifically for movie enthusiasts. It allows users to
             discover and explore movies, view ratings and reviews from other

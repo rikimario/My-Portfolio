@@ -1,8 +1,10 @@
-import About from "./components/about/About";
-import Hero from "./components/hero/Hero";
 import Navigation from "./components/navigation/Navigation";
-import Projects from "./components/projects/Projects";
+import Hero from "./components/hero/Hero";
+import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
+import Projects from "./components/projects/Projects";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <Contact />
+      <Footer />
     </>
   );
 }
