@@ -43,11 +43,7 @@ export default function Skills() {
 
         <div className="grid grid-cols-3 gap-4 lg:grid-cols-8 md:grid-cols-4">
           <div className="flex flex-col items-center">
-            <img
-              className="w-16 h-16"
-              src="src/assets/javascript.svg"
-              alt="JavaScript"
-            />
+            <img className="w-16 h-16" src="/javascript.svg" alt="JavaScript" />
             <p className="py-2">JavaScript</p>
           </div>
           <div className="flex flex-col items-center">
