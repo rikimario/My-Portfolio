@@ -42,10 +42,20 @@ export default function Hero() {
             enhance my skills.
           </p>
           <div className="text-[#0080FF] flex gap-4 pt-2">
-            <a className="hover:scale-110 hover:cursor-pointer">
+            <a
+              href="https://www.linkedin.com/in/mario-valentinov-66b847224/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:scale-110 hover:cursor-pointer"
+            >
               <ion-icon size="large" name="logo-linkedin"></ion-icon>
             </a>
-            <a className="hover:scale-110 hover:cursor-pointer">
+            <a
+              href="https://github.com/rikimario"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:scale-110 hover:cursor-pointer"
+            >
               <ion-icon size="large" name="logo-github"></ion-icon>
             </a>
           </div>
