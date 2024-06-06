@@ -80,7 +80,7 @@ export default function Hero() {
         >
           <img
             className="w-[10rem] md:w-[15rem] lg:w-[30rem] rounded-full"
-            src="/public/Tommys3.jpg"
+            src="/Tommys3.jpg"
             alt=""
           />
         </div>
