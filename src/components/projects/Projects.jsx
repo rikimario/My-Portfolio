@@ -65,7 +65,7 @@ export default function Projects() {
             rel="noopener noreferrer"
           >
             <img
-              src="src/assets/cinemania-hub.png"
+              src="/cinemania-hub.png"
               alt="cinemania-hub"
               className="w-full"
             />
@@ -141,7 +141,7 @@ export default function Projects() {
               rel="noopener noreferrer"
             >
               <img
-                src="src/assets/cinemania-hub.png"
+                src="/cinemania-hub.png"
                 alt="cinemania-hub"
                 className="w-full"
               />

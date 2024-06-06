@@ -47,99 +47,67 @@ export default function Skills() {
             <p className="py-2">JavaScript</p>
           </div>
           <div className="flex flex-col items-center">
-            <img className="w-16 h-16" src="src/assets/react.svg" alt="React" />
+            <img className="w-16 h-16" src="/react.svg" alt="React" />
             <p className="py-2">React</p>
           </div>
           <div className="flex flex-col items-center">
-            <img
-              className="w-16 h-16"
-              src="src/assets/Nextjs.svg"
-              alt="Nextjs"
-            />
+            <img className="w-16 h-16" src="/Nextjs.svg" alt="Nextjs" />
             <p className="py-2">Nextjs</p>
           </div>
           <div className="flex flex-col items-center">
-            <img
-              className="w-16 h-16"
-              src="src/assets/typescript.svg"
-              alt="TypeScript"
-            />
+            <img className="w-16 h-16" src="/typescript.svg" alt="TypeScript" />
             <p className="py-2">TypeScript</p>
           </div>
           <div className="flex flex-col items-center">
-            <img className="w-16 h-16" src="src/assets/html5.svg" alt="HTML5" />
+            <img className="w-16 h-16" src="/html5.svg" alt="HTML5" />
             <p className="py-2">HTML</p>
           </div>
           <div className="flex flex-col items-center">
-            <img className="w-16 h-16" src="src/assets/css3.svg" alt="CSS" />
+            <img className="w-16 h-16" src="/css3.svg" alt="CSS" />
             <p className="py-2">CSS</p>
           </div>
           <div className="flex flex-col items-center">
             <img
               className="w-16 h-16"
-              src="src/assets/TailwindCSS.svg"
+              src="/TailwindCSS.svg"
               alt="TailwindCSS"
             />
             <p className="py-2">Tailwind</p>
           </div>
           <div className="flex flex-col items-center">
-            <img
-              className="w-16 h-16"
-              src="src/assets/bootstrap.svg"
-              alt="Bootstrap"
-            />
+            <img className="w-16 h-16" src="/bootstrap.svg" alt="Bootstrap" />
             <p className="py-2">Bootstrap</p>
           </div>
           <div className="flex flex-col items-center">
-            <img
-              className="w-16 h-16"
-              src="src/assets/MaterialUI.svg"
-              alt="MaterialUI"
-            />
+            <img className="w-16 h-16" src="/MaterialUI.svg" alt="MaterialUI" />
             <p className="py-2">MaterialUI</p>
           </div>
           <div className="flex flex-col items-center">
-            <img className="w-16 h-16" src="src/assets/Figma.svg" alt="Figma" />
+            <img className="w-16 h-16" src="/Figma.svg" alt="Figma" />
             <p className="py-2">Figma</p>
           </div>
           <div className="flex flex-col items-center">
-            <img className="w-16 h-16" src="src/assets/Git.svg" alt="Git" />
+            <img className="w-16 h-16" src="/Git.svg" alt="Git" />
             <p className="py-2">Git</p>
           </div>
           <div className="flex flex-col items-center">
-            <img
-              className="w-16 h-16"
-              src="src/assets/GitHub.svg"
-              alt="GitHub"
-            />
+            <img className="w-16 h-16" src="/GitHub.svg" alt="GitHub" />
             <p className="py-2">GitHub</p>
           </div>
           <div className="flex flex-col items-center">
-            <img
-              className="w-16 h-16"
-              src="src/assets/Postman.svg"
-              alt="Postman"
-            />
+            <img className="w-16 h-16" src="/Postman.svg" alt="Postman" />
             <p className="py-2">Postman</p>
           </div>
           <div className="flex flex-col items-center">
-            <img
-              className="w-16 h-16"
-              src="src/assets/nodejs.svg"
-              alt="NodeJS"
-            />
+            <img className="w-16 h-16" src="/nodejs.svg" alt="NodeJS" />
             <p className="py-2">NodeJS</p>
           </div>
           <div className="flex flex-col items-center">
-            <img
-              className="w-16 h-16"
-              src="src/assets/mongodb.svg"
-              alt="MongoDB"
-            />
+            <img className="w-16 h-16" src="/mongodb.svg" alt="MongoDB" />
             <p className="py-2">MongoDB</p>
           </div>
           <div className="flex flex-col items-center">
-            <img className="w-16 h-16" src="src/assets/mocha.svg" alt="Mocha" />
+            <img className="w-16 h-16" src="/mocha.svg" alt="Mocha" />
             <p className="py-2">Mocha</p>
           </div>
         </div>
