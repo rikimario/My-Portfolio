@@ -2,6 +2,7 @@ import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { useRef } from "react";
 import { Button } from "../ui/button";
+import resume from "../../assets/Mario'sCV.pdf";
 
 export default function Hero() {
   const heroTextRef = useRef();
@@ -13,6 +14,7 @@ export default function Hero() {
       x: -100,
       opacity: 0,
       ease: "power4.out",
+      pinSpacing: false,
     });
 
     gsap.from(heroImageRef.current, {
@@ -20,6 +22,7 @@ export default function Hero() {
       x: 100,
       opacity: 0,
       ease: "power4.out",
+      pinSpacing: false,
     });
   });
 
@@ -60,13 +63,15 @@ export default function Hero() {
             </a>
           </div>
           <div className="py-4">
-            <Button
-              className="bg-[#000] rounded-2xl hover:shadow-sm shadow hover:shadow-[#0080FF] hover:bg-[#0080FF] text-[#fff]"
-              size="lg"
-              variant="secondary"
-            >
-              Download CV
-            </Button>
+            <a href={resume} download="Mario'sCV">
+              <Button
+                className="bg-[#000] rounded-2xl hover:shadow-sm shadow hover:shadow-[#0080FF] hover:bg-[#0080FF] text-[#fff]"
+                size="lg"
+                variant="secondary"
+              >
+                Download CV
+              </Button>
+            </a>
           </div>
         </div>
         <div

@@ -12,7 +12,7 @@ export default function Projects() {
     gsap.fromTo(
       firstProjectRef.current,
       {
-        x: 100,
+        x: -100,
         opacity: 0,
       },
       {
@@ -59,11 +59,17 @@ export default function Projects() {
         className="pb-12 lg:flex bg-[#1c2226] rounded-3xl"
       >
         <div className="lg:min-w-[450px] p-4">
-          <img
-            src="src/assets/cinemania-hub.png"
-            alt="cinemania-hub"
-            className="w-full"
-          />
+          <a
+            href="https://cinemania-hub-frontend.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="src/assets/cinemania-hub.png"
+              alt="cinemania-hub"
+              className="w-full"
+            />
+          </a>
         </div>
 
         <div className="p-4 lg:pl-16 bg-[#1c2226] rounded-3xl">
@@ -129,11 +135,17 @@ export default function Projects() {
         </div>
         <div className="lg:pb-12 lg:flex bg-[#1c2226] rounded-3xl">
           <div className="lg:min-w-[450px] p-4">
-            <img
-              src="src/assets/cinemania-hub.png"
-              alt="cinemania-hub"
-              className="w-full"
-            />
+            <a
+              href="https://cinemania-hub-frontend.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="src/assets/cinemania-hub.png"
+                alt="cinemania-hub"
+                className="w-full"
+              />
+            </a>
           </div>
         </div>
       </div>

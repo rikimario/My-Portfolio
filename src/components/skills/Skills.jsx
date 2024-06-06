@@ -11,7 +11,7 @@ export default function Skills() {
     gsap.fromTo(
       skillsRef.current,
       {
-        x: 100,
+        x: -100,
         opacity: 0,
       },
       {

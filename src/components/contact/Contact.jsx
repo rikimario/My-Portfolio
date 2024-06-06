@@ -46,7 +46,7 @@ export default function Contact() {
     gsap.fromTo(
       contactRef.current,
       {
-        x: 100,
+        x: -100,
         opacity: 0,
       },
       {
