@@ -1,6 +1,7 @@
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { SquareArrowOutUpRight } from "lucide-react";
 import { useRef } from "react";
 gsap.registerPlugin(ScrollTrigger);
 
@@ -59,17 +60,11 @@ export default function Projects() {
         className="pb-12 lg:flex bg-[#1c2226] rounded-3xl"
       >
         <div className="lg:min-w-[450px] p-4">
-          <a
-            href="https://cinemania-hub-frontend.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="/cinemania-hub.png"
-              alt="cinemania-hub"
-              className="w-full"
-            />
-          </a>
+          <img
+            src="/cinemania-hub.png"
+            alt="cinemania-hub"
+            className="w-full"
+          />
         </div>
 
         <div className="p-4 lg:pl-16 bg-[#1c2226] rounded-3xl">
@@ -97,6 +92,30 @@ export default function Projects() {
             <span className="rounded-full p-2 bg-[#374151] text-gray-300">
               Shadcn/Ui
             </span>
+          </div>
+          <div className="flex flex-col items-center gap-4 py-6 md:flex md:flex-row">
+            <a
+              href="https://cinemania-hub-frontend.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex gap-1 hover:text-[#0080FF]"
+            >
+              View Website{" "}
+              <span>
+                <SquareArrowOutUpRight size={14} />
+              </span>
+            </a>
+            <a
+              href="https://github.com/rikimario/CinemaniaHub"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex gap-1 hover:text-[#0080FF]"
+            >
+              View Github{" "}
+              <span>
+                <SquareArrowOutUpRight size={14} />
+              </span>
+            </a>
           </div>
         </div>
       </div>
@@ -132,20 +151,38 @@ export default function Projects() {
               Shadcn/Ui
             </span>
           </div>
-        </div>
-        <div className="lg:pb-12 lg:flex bg-[#1c2226] rounded-3xl">
-          <div className="lg:min-w-[450px] p-4">
+          <div className="flex flex-col items-center gap-4 py-6 md:flex md:flex-row">
             <a
               href="https://cinemania-hub-frontend.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
+              className="flex gap-1 hover:text-[#0080FF]"
             >
-              <img
-                src="/cinemania-hub.png"
-                alt="cinemania-hub"
-                className="w-full"
-              />
+              View Website{" "}
+              <span>
+                <SquareArrowOutUpRight size={14} />
+              </span>
             </a>
+            <a
+              href="https://github.com/rikimario/CinemaniaHub"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex gap-1 hover:text-[#0080FF]"
+            >
+              View Github{" "}
+              <span>
+                <SquareArrowOutUpRight size={14} />
+              </span>
+            </a>
+          </div>
+        </div>
+        <div className="lg:pb-12 lg:flex bg-[#1c2226] rounded-3xl">
+          <div className="lg:min-w-[450px] p-4">
+            <img
+              src="/cinemania-hub.png"
+              alt="cinemania-hub"
+              className="w-full"
+            />
           </div>
         </div>
       </div>
